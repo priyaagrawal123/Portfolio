@@ -1,12 +1,12 @@
 import React from "react";
-import image6 from "../assets/image6.png";
+import image6 from "../assets/Priya_Agrawal_Resume.png";
 import { toast, Toaster } from "react-hot-toast";
 
 function Resume() {
     const handleDownload = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch("src/assets/Priya_Agrawal (1).pdf");
+            const response = await fetch("src/assets/Priya_Agrawal_Resume (3).pdf");
             if (!response.ok) {
                 throw new Error("Failed to fetch file");
             }
@@ -14,7 +14,7 @@ function Resume() {
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement('a');
             a.href = url;
-            a.download = "Priya_Agrawal_Resume.pdf";
+            a.download = "Priya_Agrawal_Resume (3).pdf";
             document.body.appendChild(a);
             a.click();
             a.remove();

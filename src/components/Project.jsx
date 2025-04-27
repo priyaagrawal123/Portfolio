@@ -1,6 +1,6 @@
 import React from 'react';
 import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
+import image2 from "../assets/finalimagehd.png";
 import image3 from "../assets/hotelm.png";
 import image4 from "../assets/landingpage.png";
 const projects = [
@@ -10,15 +10,17 @@ const projects = [
         description: "E-Localhood is an e-commerce website containing seller, customer, service provider, and the main motive of this is to give small business owners a platform to grow their business.",
         technology: "Technology: ReactJs, JavaScript, HTML, CSS, Figma, Axios",
         image: image1,
-        github: "https://github.com/priyaagrawal123/eLocalhood-MyProject"
+        github: "https://github.com/priyaagrawal123/eLocalhood-MyProject",
+        Hoistinglink: "https://e-localhood-my-project-pq7b.vercel.app/login"
     },
     {
         id: 2,
         title: "Devfolio",
-        description: "Devfolio is a developer portfolio website built with modern web technologies.",
+        description: "Devfolio is a Responsive developer portfolio website built with modern web technologies.",
         technology: "Technology: ReactJs, JavaScript, Vite.js, Tailwind CSS, HTML, CSS",
         image: image2,
-        github: "https://github.com/priyaagrawal123"
+        github: "https://github.com/priyaagrawal123",
+        Hoistinglink: "https://portfolio-3s6l.vercel.app/title"
     },
     {
         id: 3,
@@ -31,7 +33,7 @@ const projects = [
     {
         id: 4,
         title: "Landing Page",
-        description: "It is a Landing page for a Bakery, containing basic details about a Homebaker.",
+        description: "It is a Landing page of a Bakery, containing basic details about a Homebaker .It is not functional but just a practice of Structure & Design",
         technology: "Technology: ReactJs, JavaScript, Tailwind CSS, HTML, NodeJS",
         image: image4,
         github: "https://github.com/priyaagrawal123/My-Landing-Page",
