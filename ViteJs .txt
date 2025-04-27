@@ -1,0 +1,4 @@
+ViteJs 
+latest version 4
+vite is a build tool that aims to provide a faster and learner development experience for modern web projects
+vite requires 16+ node.js version 

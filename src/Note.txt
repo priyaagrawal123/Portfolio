@@ -1,0 +1,23 @@
+flex-it keeps the items in standard form with the container
+justify-center=it ensures to keep the items in horizontal
+items-center=it keeps the items in vertical in flex container ok 
+p=padding on all sides 
+pl-from left side
+pr-from right side
+pb-from bottom side of thr
+pt-from top side of the container
+px=from left and right 
+py-from top and bottom 
+md-sets margin on all sides of the element
+mt-sets margin to the top
+m-same as md
+gap-space add karta sabme
+space- space add karta sabme but more dhyan se sab sides se na re pgl
+list-disc (add dot to the list)
+
+to make responsive
+sm: Small screens (min-width: 640px)
+md: Medium screens (min-width: 768px)
+lg: Large screens (min-width: 1024px)
+xl: Extra large screens (min-width: 1280px)
+2xl: Double extra large screens (min-width: 1536px)
